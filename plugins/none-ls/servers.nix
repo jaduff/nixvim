@@ -176,8 +176,8 @@ with lib; let
     erb_format = pkgs.rubyPackages.erb-formatter;
     fish_indent = pkgs.fish;
     format_r = pkgs.R;
-    gdformat = pkgs.gdtoolkit;
-    gdlint = pkgs.gdtoolkit;
+    gdformat = pkgs.gdtoolkit_3;
+    gdlint = pkgs.gdtoolkit_3;
     gitsigns = pkgs.git;
     glslc = pkgs.shaderc;
     gn_format = pkgs.gn;
